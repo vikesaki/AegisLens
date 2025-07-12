@@ -1,0 +1,6 @@
+train: data/train/images
+val: data/validation/images
+# test: ../test/images
+
+nc: 5
+names: ['Bus','Car','LicensePlate','Motorcycle','Truck']
