@@ -7,9 +7,8 @@ images_dir = os.path.join(base_dir, "images")
 labels_dir = os.path.join(base_dir, "labels")
 
 output_dirs = {
-    "train": 0.7,
-    "val": 0.15,
-    "test": 0.15
+    "train": 0.8,
+    "val": 0.2,
 }
 
 for split in output_dirs:
