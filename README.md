@@ -8,3 +8,5 @@
 `python yolo_detect.py --model=runs/detect/train/weights/best.pt --source=*filename*`
 
 use `--source=usb0` for using webcam
+
+use `latest.pt` for the newest model
