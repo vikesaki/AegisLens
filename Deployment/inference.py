@@ -39,7 +39,7 @@ def app():
     # Set page configuration
     # st.set_page_config(page_title="License Plate Detection with YOLO", layout="wide")
     # Streamlit app
-    st.title("License Plate Detection with YOLO")
+    st.title("Let's test our model!")
 
     # Model configuration
     MODEL_PATH = "latest.pt"

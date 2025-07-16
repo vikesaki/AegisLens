@@ -7,22 +7,21 @@ import appProfile
 import inference
 
 st.sidebar.title("What do you want to see?")
-page = st.sidebar.radio("Pick One :)", ("About Project", "EDA", "Prediction"), index=0)
+page = st.sidebar.radio("Choose one below:", ("About Project", "Exploratory Data Analysis", "Test our model!"), index=0)
 
 
 st.sidebar.markdown("<br><br>", unsafe_allow_html=True)
 st.sidebar.markdown("""
 **Team Member:**
-
-1. Kemal  
-2. Robi  
-3. Mas Bibi  
-4. Ojan
+1. Muhammad Faishal Kemal Jauhar Arifin
+2. Muhammad Rafi Abhinaya
+3. Ma'ruf Habibie Siregar
+4. Fauzan Rahmat Farghani
 """)
 
-if page == "EDA":
+if page == "Exploratory Data Analysis":
     eda.app()
-elif page == "Prediction":
+elif page == "Test our model!":
     inference.app()
 else:
     appProfile.app()
