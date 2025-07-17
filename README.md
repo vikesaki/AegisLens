@@ -2,6 +2,24 @@
 
 ![Project Banner](banner.png)
 
+## What is AegisLens?
+AegisLens is a model that can detect vehicle types and read their license plate. It utilizes an object detection model and an Optical Character Recognition (OCR) model to output it’s results.
+
+## How does it work?
+1. **Object Detection**: The model detects vehicles in the video footage and identifies their bounding boxes.
+2. **License Plate Recognition**: For each detected vehicle, the model extracts the license plate region and applies OCR to read the text.
+3. **Expiry Date Extraction**: The model processes the license plate text to extract the expiry date, if available.
+4. **Output**: The model displays the detected vehicle type, license plate number, and expiry date on the video footage.
+
+## Tools for model development:
+- **YOLOv8**: A object detection model used for detecting vehicles in the video footage.
+- **EasyOCR**: An OCR model used for reading text from the detected license plates.
+- **Streamlit**: A web application framework used to create the user interface for the application.
+
+## Features:
+- **Exploratory Data Analysis**: View insights and statistics about the dataset used for training the model.
+- **Prediction**: Upload a video file to detect vehicles and read license plates.
+
 ## Repository Overview
 
 ```
@@ -162,8 +180,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **No warranty** is provided. Use at your own risk.
 
 ## Contributors
-- [@github1](link) - Role (contact@email.com)  
-- [@github2](link) - Role (contact@email.com)
-- [@github1](link) - Role (contact@email.com)  
-- [@github2](link) - Role (contact@email.com)
-- [@github1](link) - Role (contact@email.com)    
+- [Lis Wahyuni](https://github.com/liswahyuni) - Data Scientist (liswyuni@gmail.com)  
+- [Faishal Kemal](https://github.com/vikesaki) - Data Scientist & Data Annotator (faishalkemal68@gmail.com)
+- [Ma'ruf Habibie Siregar](https://github.com/HbbSiregar) - Data Scientist & Data Annotator  (maruf.habibie.siregar@gmail.com)  
+- [Muhammad Rafi Abhinaya](https://github.com/RafiAbhinaya) - Data Analyst & Data Annotator (mr.abhinaya26@gmail.com)
+- [Fauzan Rahmat Farghani](https://github.com/fauzanfarghani) - Data Engineer & Data Annotator (fauzanf78@rocketmail.com)    
