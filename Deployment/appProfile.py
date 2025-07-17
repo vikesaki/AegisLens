@@ -86,9 +86,20 @@ def app():
     col1, col2, col3 = st.columns([1, 2, 1])
     
     with col2:
-        st.image("Deployment/FotoKakLis.jpg", width=200)  # Pastikan nama file & ekstensi benar
-        st.markdown("<p style='text-align: center;'>Lis Wahyuni</p>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; font-weight: bold;'>Mentor</p>", unsafe_allow_html=True)
+        st.image("Deployment/FotoKakLis.jpg", width=200)
+        st.markdown("""
+        <div style="
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;
+            text-align: center;
+            margin-top: 10px;
+        ">
+            <span>Lis Wahyuni</span>
+            <b>Mentor</b>
+        </div>
+        """, unsafe_allow_html=True)
 
     
     cols = st.columns(4)
