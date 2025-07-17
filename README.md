@@ -182,6 +182,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## Contributors
 - [Lis Wahyuni](https://github.com/liswahyuni) - Data Scientist (liswyuni@gmail.com)  
 - [Faishal Kemal](https://github.com/vikesaki) - Data Scientist & Data Annotator (faishalkemal68@gmail.com)
-- [Ma'ruf Habibie Siregar](https://github.com/HbbSiregar) - Data Scientist & Data Annotator  (maruf.habibie.siregar@gmail.com)  
-- [Muhammad Rafi Abhinaya](https://github.com/RafiAbhinaya) - Data Analyst & Data Annotator (mr.abhinaya26@gmail.com)
+- [Muhammad Rafi Abhinaya](https://github.com/RafiAbhinaya) - Data Scientist & Data Annotator (mr.abhinaya26@gmail.com)
+- [Ma'ruf Habibie Siregar](https://github.com/HbbSiregar) - Data Analyst & Data Annotator  (maruf.habibie.siregar@gmail.com)  
 - [Fauzan Rahmat Farghani](https://github.com/fauzanfarghani) - Data Engineer & Data Annotator (fauzanf78@rocketmail.com)    
