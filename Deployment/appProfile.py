@@ -83,25 +83,12 @@ def app():
     st.markdown("<h1 style='font-size: 48px; text-align: center;'>MEET OUR TEAM</h1>", unsafe_allow_html=True)
 
    
-    col1, col2, col3 = st.columns([3, 4, 3])
+    col1, col2, col3 = st.columns([1, 2, 1])
     
     with col2:
-        st.markdown("""
-        <div style='
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin-bottom: 20px;
-        '>
-            <img src="Deployment/FotoKakLis.jpg" width="200px" style="border-radius: 10px;" />
-            <p style="margin: 8px 0 0 0; font-weight: normal;">Lis Wahyuni</p>
-            <p style="margin: 0; font-weight: bold;">Mentor</p>
-        </div>
-        """, unsafe_allow_html=True)
-
-    st.markdown("<br><br>", unsafe_allow_html=True)  
+        st.image("Deployment/FotoKakLis.jpg", width=200)  # Pastikan nama file & ekstensi benar
+        st.markdown("<p style='text-align: center;'>Lis Wahyuni</p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; font-weight: bold;'>Mentor</p>", unsafe_allow_html=True)
 
     
     cols = st.columns(4)
