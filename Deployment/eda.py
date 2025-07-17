@@ -34,7 +34,7 @@ def app():
     st.header("1. Distribution of Objects per Class")
     st.image("Deployment/FotoEDA1.1.png", use_container_width=True)
     st.write("Based on the insight that Class 0 (Bus) is underrepresented, we will now look at example images containing objects from this class.")
-    st.image("FotoEDA1.2.png", use_container_width=True)
+    st.image("Deployment/FotoEDA1.2.png", use_container_width=True)
     st.write("""
     **Insight: Class Distribution**
     - The bar chart above illustrates the class distribution in the training dataset.
