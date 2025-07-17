@@ -108,6 +108,6 @@ def app():
         st.write("<p style='text-align: center;font-weight: bold;'>Data Analyst</p>", unsafe_allow_html=True)
 
     with col4:
-        st.image("FotoOjan.jpg", use_container_width=True)
+        st.image("Deployment/FotoOjan.jpg", use_container_width=True)
         st.write("<p style='text-align: center;'>Fauzan Rahmat Farghani</p>", unsafe_allow_html=True)
         st.write("<p style='text-align: center;font-weight: bold;'>Data Annotator & Deployment</p>", unsafe_allow_html=True)
