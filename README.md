@@ -37,14 +37,6 @@ This system combines YOLO (You Only Look Once) object detection with license pla
 2. Identify vehicle classes (car, truck, motorcycle, etc.)
 3. Optionally recognize license plate details including expiration date
 
-## Great! Here's a **"How to Run Inference"** section you can add to your `README.md` that starts from creating a virtual environment and installing dependencies, all the way to running the inference:
-
----
-
-## Here's the updated "How to Run Inference" section that aligns with the provided argument parser code:
-
----
-
 ## How to Run Inference
 
 ### 1. Initial Setup
