@@ -1,5 +1,3 @@
-Here's the updated README.md with the inference instructions incorporated:
-
 # Vehicle Object Detection and License Plate Recognition (LPR) System
 
 ![Project Banner](banner.png)
