@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def app():
-    st.title("<h1 style='font-size: 52px;text-align: center;> Exploratory Data Analysis of AegisLens</h1>")
+    st.title("Exploratory Data Analysis of AegisLens")
     paragraph_eda1 = "Below is the exploratory data analysis of the dataset used for training the AegisLens model. This section provides insights into the data distribution and other statistical information."
     st.markdown(
     """
