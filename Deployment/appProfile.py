@@ -81,31 +81,33 @@ def app():
 
     # TEAM PROFILE SECTION
     st.markdown("<h1 style='font-size: 48px;text-align: center;'>MEET OUR TEAM</h1>", unsafe_allow_html=True)
-    
-    
-    cols = st.columns(5)
-    
-    with cols[0]:
+    # Use columns with equal spacing for perfect centering
+    col1, col2, col3 = st.columns([1, 0.5, 1])
+    with col2:
         st.image("Deployment/FotoKakLis.jpg", width=200)
-        st.markdown("<p style='text-align: center; margin-bottom: 0;'>Lis Wahyuni</p>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; font-weight: bold; margin-top: 0;'>Mentor</p>", unsafe_allow_html=True)
-    
-    with cols[1]:
+        st.write("<p style='text-align: center;'>Lis Wahyuni</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center;font-weight: bold;'>Mentor</p>", unsafe_allow_html=True)
+    # Create four columns
+    col1, col2, col3, col4 = st.columns(4)
+
+    # Display each image in its respective column
+    with col1:
         st.image("Deployment/FotoKemal.jpg", use_container_width=True)
-        st.markdown("<p style='text-align: center;'>Muhammad Faishal Kemal</p>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; font-weight: bold;'>Data Scientist</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center;'>Muhammad Faishal Kemal</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center;font-weight: bold;'>Data Scientist</p>", unsafe_allow_html=True)
 
-    with cols[2]:
+    with col2:
         st.image("Deployment/FotoRobi.jpg", use_container_width=True)
-        st.markdown("<p style='text-align: center;'>Muhammad Rafi Abhinaya</p>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; font-weight: bold;'>Data Scientist</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center;'>Muhammad Rafi Abhinaya</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center;font-weight: bold;'>Data Scientist</p>", unsafe_allow_html=True)
 
-    with cols[3]:
+    with col3:
         st.image("Deployment/FotoMasBibi.jpg", use_container_width=True)
-        st.markdown("<p style='text-align: center;'>Ma'ruf Habibie Siregar</p>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; font-weight: bold;'>Data Analyst</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center;'>Ma'ruf Habibie Siregar</p>", unsafe_allow_html=True)
+        
+        st.write("<p style='text-align: center;font-weight: bold;'>Data Analyst</p>", unsafe_allow_html=True)
 
-    with cols[4]:
+    with col4:
         st.image("Deployment/FotoOjan.jpg", use_container_width=True)
-        st.markdown("<p style='text-align: center;'>Fauzan Rahmat Farghani</p>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; font-weight: bold;'>Data Annotator & Deployment</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center;'>Fauzan Rahmat Farghani</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center;font-weight: bold;'>Data Annotator & Deployment</p>", unsafe_allow_html=True)
