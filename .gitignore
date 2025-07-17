@@ -2,8 +2,8 @@
 *.MOV
 comparison.py
 
-venv/
-__pycache__/
+**/__pycache__/
+**/venv/
 
-build/
-dist/main_app/_internal/
+UIAppMacOS/build/
+UIAppMacOS/dist/
