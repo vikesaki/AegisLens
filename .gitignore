@@ -2,3 +2,8 @@
 *.MOV
 comparison.py
 
+venv/
+__pycache__/
+
+build/
+dist/main_app/_internal/
