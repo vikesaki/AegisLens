@@ -81,7 +81,7 @@ def app():
 
     # TEAM PROFILE SECTION
     st.markdown(
-    """st.markdown("<h1 style='font-size: 48px;text-align: center;'>MEET OUR TEAM</h1>", unsafe_allow_html=True)""",unsafe_allow_html=True)
+    """st.markdown("<h1 style='font-size: 48px;text-align: center;'>MEET OUR TEAM</h1>", unsafe_allow_html=True),unsafe_allow_html=True""")
 
     # Use columns with equal spacing for perfect centering
     col1, col2, col3 = st.columns([1, 0.35, 1])
