@@ -56,7 +56,7 @@ def app():
     - Understand the complexity of each image in terms of object density.
     - Determine how well the model needs to handle crowded versus sparse scenes.
     """)
-    st.image("Deployment/FotoEDA2.png", use_container_width=True)
+    st.image("Deployment/FotoEDA2.1.png", use_container_width=True)
     st.write("""
     **Insight: Number of Labeled Objects per Image**
     - The chart shows the distribution of labeled objects per image.
