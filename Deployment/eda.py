@@ -32,7 +32,7 @@ def app():
 
     #EDA QUESTION 1
     st.header("1. Distribution of Objects per Class")
-    st.image("FotoEDA1.1.png", use_container_width=True)
+    st.image("Deployment/FotoEDA1.1.png", use_container_width=True)
     st.write("Based on the insight that Class 0 (Bus) is underrepresented, we will now look at example images containing objects from this class.")
     st.image("FotoEDA1.2.png", use_container_width=True)
     st.write("""
@@ -56,7 +56,7 @@ def app():
     - Understand the complexity of each image in terms of object density.
     - Determine how well the model needs to handle crowded versus sparse scenes.
     """)
-    st.image("FotoEDA2.1.png", use_container_width=True)
+    st.image("Deployment/FotoEDA2.1.png", use_container_width=True)
     st.write("""
     **Insight: Number of Labeled Objects per Image**
     - The chart shows the distribution of labeled objects per image.
@@ -96,7 +96,7 @@ def app():
     - Identify challenges related to small object detection (e.g. License Plates).
     - Adjust model strategies accordingly based on object scale differences.
     """)
-    st.image("FotoEDA3.1.png", use_container_width=True)
+    st.image("Deployment/FotoEDA3.1.png", use_container_width=True)
     st.write("""
     **Insight: Bounding Box Size Distribution**
     - The chart illustrates the distribution of bounding box sizes in the dataset.
@@ -117,7 +117,7 @@ def app():
     - Understand the spatial characteristics of objects like License Plates (typically wide) and Motorcycles (typically tall).
     - Help inform model design to better handle varying object shapes.
     """)
-    st.image("FotoEDA4.1.png", use_container_width=True)
+    st.image("Deployment/FotoEDA4.1.png", use_container_width=True)
     st.write("""
     **Insight : Bounding Box Aspect Ratio Distribution**
     - The chart above shows the distribution of bounding box aspect ratios (width/height).
@@ -138,9 +138,9 @@ def app():
     - Observe variations in object size, shape, and positioning.
     - Understand real-world image conditions such as lighting, occlusion, and viewing angles.
     """)
-    st.image("FotoEDA5.1.png", use_container_width=True)
-    st.image("FotoEDA5.2.png", use_container_width=True)
-    st.image("FotoEDA5.3.png", use_container_width=True)
+    st.image("Deployment/FotoEDA5.1.png", use_container_width=True)
+    st.image("Deployment/FotoEDA5.2.png", use_container_width=True)
+    st.image("Deployment/FotoEDA5.3.png", use_container_width=True)
     st.write("""
     **Insight : Visualizations of Labeled Images**
     - The images above are examples of labeled visualizations from the dataset.
@@ -162,7 +162,7 @@ def app():
     - Detect any positional bias that may affect model learning.
     - Understand common placements of certain object types, such as License Plates, which often appear in the lower-middle region of the image.
     """)
-    st.image("FotoEDA6.1.png", use_container_width=True)
+    st.image("Deployment/FotoEDA6.1.png", use_container_width=True)
     st.write("""
     **Insight : Heatmap of Bounding Box Centroid Positions**
     - The heatmap above shows the distribution of bounding box centroid positions.
