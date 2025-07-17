@@ -81,17 +81,21 @@ def app():
 
     # TEAM PROFILE SECTION
     st.markdown("<h1 style='font-size: 48px;text-align: center;'>MEET OUR TEAM</h1>", unsafe_allow_html=True)
-
-    # Bagian mentor - hanya satu di tengah
-    st.image("Deployment/FotoKakLis.jpg", width=200)
-    st.markdown("<p style='text-align: center; margin-bottom: 0;'>Lis Wahyuni</p>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; font-weight: bold; margin-top: 0;'>Mentor</p>", unsafe_allow_html=True)
-
-    st.markdown("<br>", unsafe_allow_html=True)  # beri jarak antar bagian mentor dan tim
-
-    # Bagian tim 4 kolom sejajar
-    cols = st.columns(4)
     
+    
+    col1, col2, col3 = st.columns([1, 2, 1]) 
+    
+    with col2:
+        st.markdown("<div style='text-align:center'>", unsafe_allow_html=True)
+        st.image("Deployment/FotoKakLis.jpg", width=200)
+        st.markdown("<p style='text-align: center; margin-bottom: 0;'>Lis Wahyuni</p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; font-weight: bold; margin-top: 0;'>Mentor</p>", unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True)
+
+    st.markdown("<br><br>", unsafe_allow_html=True) 
+
+   
+    cols = st.columns(4)
     with cols[0]:
         st.image("Deployment/FotoKemal.jpg", use_container_width=True)
         st.markdown("<p style='text-align: center;'>Muhammad Faishal Kemal</p>", unsafe_allow_html=True)
