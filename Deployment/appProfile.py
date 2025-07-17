@@ -6,7 +6,7 @@ def app():
     # HEADER SECTION
     st.markdown("<h1 style='font-size: 62px;text-align: center;'>Welcome to AegisLens!</h1>", unsafe_allow_html=True)
     #foto
-    st.image("AegisLensLogo.png", use_container_width=True)
+    st.image("Deployment/AegisLensLogo.png", use_container_width=True)
     paragraph1 = "AegisLens is an application designed to enhance traffic incident response and road monitoring by leveraging computer vision technology. AegisLens processes dashcam footage to automatically detect vehicles, recognize license plates, and extract critical information such as license plate numbers and expiry dates. This tool aims to streamline post-incident evidence collection and improve the efficiency of traffic investigations."
     st.markdown(
     """
@@ -84,7 +84,7 @@ def app():
     # Use columns with equal spacing for perfect centering
     col1, col2, col3 = st.columns([1, 0.5, 1])
     with col2:
-        st.image("FotoKakLis.jpg", width=200)
+        st.image("Deployment/FotoKakLis.jpg", width=200)
         st.write("<p style='text-align: center;'>Lis Wahyuni</p>", unsafe_allow_html=True)
         st.write("<p style='text-align: center;font-weight: bold;'>Mentor</p>", unsafe_allow_html=True)
     # Create four columns
@@ -92,17 +92,17 @@ def app():
 
     # Display each image in its respective column
     with col1:
-        st.image("FotoKemal.jpg", use_container_width=True)
+        st.image("Deployment/FotoKemal.jpg", use_container_width=True)
         st.write("<p style='text-align: center;'>Muhammad Faishal Kemal</p>", unsafe_allow_html=True)
         st.write("<p style='text-align: center;font-weight: bold;'>Data Scientist</p>", unsafe_allow_html=True)
 
     with col2:
-        st.image("FotoRobi.jpg", use_container_width=True)
+        st.image("Deployment/FotoRobi.jpg", use_container_width=True)
         st.write("<p style='text-align: center;'>Muhammad Rafi Abhinaya</p>", unsafe_allow_html=True)
         st.write("<p style='text-align: center;font-weight: bold;'>Data Scientist</p>", unsafe_allow_html=True)
 
     with col3:
-        st.image("FotoMasBibi.jpg", use_container_width=True)
+        st.image("Deployment/FotoMasBibi.jpg", use_container_width=True)
         st.write("<p style='text-align: center;'>Ma'ruf Habibie Siregar</p>", unsafe_allow_html=True)
         
         st.write("<p style='text-align: center;font-weight: bold;'>Data Analyst</p>", unsafe_allow_html=True)
